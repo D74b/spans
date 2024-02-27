@@ -1,0 +1,33 @@
+{% load static %}
+{% load i18n %}
+
+<header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
+  <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
+    <svg class="bi me-2" width="40" height="32">
+      <img class="bi me-2" width="32" height="32" src='{% static "img/icons/nico.ico" %}'>
+    </svg>
+    <span class="fs-4">LMAA</span>
+  </a>
+  {% with request.resolver_match.view_name as view_name %}
+  <ul class="nav nav-pills">
+    {% with request.user.is_active as user_status %}
+    {% if request.user.is_authenticated %}
+      <li class="nav-item">
+        <a class="nav-link" href="{% url 'auth:logout' %}?next={% url 'auth:login' %}">
+          Выйти из аккаунта
+        </a>
+      </li>
+    {% endif %}
+    {% endwith %}
+    {% with request.user.is_staff as user_status %}
+    {% if user_status %}
+      <li class="nav-item">
+        <a class="nav-link" href="/admin/">
+          Панель администратора
+        </a>
+      </li>
+    {% endif %}
+    {% endwith %}
+  </ul>
+  {% endwith %}
+</header>

@@ -1,0 +1,21 @@
+{% load static %}
+
+<footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+    <span id="footer-year"></span>
+    <script>
+        var clientDate = new Date();
+        var clientYear = clientDate.getFullYear();
+
+        var serverYear = {% now "Y" %};
+        var serverDate = new Date({% now "Y" %}, {% now "m" %} -1, {% now "d" %}, {% now "H" %}, {% now "i" %}, {% now "s" %});
+
+        var timeDiff = Math.abs(clientDate.getTime() - serverDate.getTime());
+        var diffDays = Math.ceil(timeDiff / (1000 * 3600 * 24));
+
+        if (diffDays > 1) {
+            document.getElementById("footer-year").innerHTML = serverYear;
+        } else {
+            document.getElementById("footer-year").innerHTML = clientYear;
+        }
+    </script>
+</footer>

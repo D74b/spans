@@ -1,0 +1,106 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="HtmlUnknownAttribute" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="myValues">
+        <value>
+          <list size="5">
+            <item index="0" class="java.lang.String" itemvalue="color" />
+            <item index="1" class="java.lang.String" itemvalue="file" />
+            <item index="2" class="java.lang.String" itemvalue="controls" />
+            <item index="3" class="java.lang.String" itemvalue="align" />
+            <item index="4" class="java.lang.String" itemvalue="float" />
+          </list>
+        </value>
+      </option>
+      <option name="myCustomValuesEnabled" value="true" />
+    </inspection_tool>
+    <inspection_tool class="HtmlUnknownTag" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="myValues">
+        <value>
+          <list size="8">
+            <item index="0" class="java.lang.String" itemvalue="nobr" />
+            <item index="1" class="java.lang.String" itemvalue="noembed" />
+            <item index="2" class="java.lang.String" itemvalue="comment" />
+            <item index="3" class="java.lang.String" itemvalue="noscript" />
+            <item index="4" class="java.lang.String" itemvalue="embed" />
+            <item index="5" class="java.lang.String" itemvalue="script" />
+            <item index="6" class="java.lang.String" itemvalue="bgsound" />
+            <item index="7" class="java.lang.String" itemvalue="a" />
+          </list>
+        </value>
+      </option>
+      <option name="myCustomValuesEnabled" value="true" />
+    </inspection_tool>
+    <inspection_tool class="PyPep8NamingInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="N806" />
+          <option value="N802" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="_dict_items.sort" />
+          <option value="list.append" />
+          <option value="Code.Paint.setAlignment" />
+          <option value="Code.Paint.setPixmap" />
+          <option value="Code.Paint.pixmap" />
+          <option value="Code.Paint.setScene" />
+          <option value="Code.Paint.addItem" />
+          <option value="test.Paint.setAlignment" />
+          <option value="test.Paint.setPixmap" />
+          <option value="test.Paint.pixmap" />
+          <option value="Code.Settings.setPixmap" />
+          <option value="Code.Settings.scrollArea" />
+          <option value="Code.Settings.triggered" />
+          <option value="Code.Settings.clicked" />
+          <option value="Code.Settings.setScene" />
+          <option value="test.Paint.setScene" />
+          <option value="Code.Settings.scale" />
+          <option value="Code.Settings.setColor" />
+          <option value="Code.Settings.value" />
+          <option value="Code.Settings.valueChanged" />
+          <option value="Code.Settings.valueChanget" />
+          <option value="Code.Settings.upClicked" />
+          <option value="Code.Paint.clicked" />
+          <option value="Code.Paint.valueChanged" />
+          <option value="Code.Paint.value" />
+          <option value="Code.Settings.pen1flag" />
+          <option value="Code.Settings.pen1size" />
+          <option value="Code.Settings.pen2size" />
+          <option value="Code.Settings.pen_siz1" />
+          <option value="Code.Settings.eraser2flag" />
+          <option value="Code.Settings.eraser1flag" />
+          <option value="Code.Settings.pen2flag" />
+          <option value="Code.Settings.pen1_colr" />
+          <option value="Code.Settings.pen2_colr" />
+          <option value="Code.Settings.pen_colorr1" />
+          <option value="Code.Settings.pen_colorr2" />
+          <option value="Code.Settings.pen2_siz" />
+          <option value="Code.Settings.fill_flag" />
+          <option value="Code.Settings.window_siz_w" />
+          <option value="Code.Settings.window_siz_h" />
+          <option value="Code.Settings.wind_h" />
+          <option value="Code.Settings.wind_w" />
+          <option value="Code.Settings.holst" />
+          <option value="Code.Paint.holst" />
+          <option value="Code.Paint.paint" />
+          <option value="Code.Settings.addd_im" />
+          <option value="Code.Paint.fname" />
+          <option value="Code.Settings.flag_for_change_im" />
+          <option value="Code.Paint.hst" />
+          <option value="tuple.__sub__" />
+          <option value="pygame.sprite.Sprite.pos" />
+          <option value="pygame.sprite.Sprite.n" />
+          <option value="str.decode" />
+          <option value="pydub.audio_segment.AudioSegment.*" />
+          <option value="pygame.pixelarray.PixelArray.__setitem__" />
+          <option value="django.utils.datetime_safe.date.today" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>

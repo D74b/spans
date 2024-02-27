@@ -1,0 +1,7 @@
+Django
+Pillow
+channels
+channels_redis
+django-environ
+python-dotenv
+daphne
