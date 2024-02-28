@@ -11,7 +11,7 @@ SECRET_KEY = "django-insecure-l72-#2l8&+hhibo6=c=8q_cqbj$c)6478*kpumiwp0up&y79tw
 
 DEBUG = True
 
-ALLOWED_HOSTS = ["spans.onrender.com"]
+ALLOWED_HOSTS = []
 
 CHANNEL_LAYERS = {
     "default": {
