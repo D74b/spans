@@ -18,8 +18,8 @@
       <br />
     </div>
     <script>
-      console.log("ws://" + "spans.onrender.com" + "/");
-      const chatSocket = new WebSocket("ws://" + "spans.onrender.com" + "/");
+      console.log("wss://" + "spans.onrender.com" + "/");
+      const chatSocket = new WebSocket("wss://" + "spans.onrender.com" + "/");
       chatSocket.onopen = function (e) {
         console.log("The connection was setup successfully !");
       };
