@@ -5,4 +5,3 @@ channels_redis
 django-environ
 python-dotenv
 daphne
-dj-database-url psycopg2-binary
