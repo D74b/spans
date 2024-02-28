@@ -1,5 +1,4 @@
 import os
-import dj_database_url
 from pathlib import Path
 from dotenv import load_dotenv
 
@@ -11,7 +10,7 @@ SECRET_KEY = "django-insecure-l72-#2l8&+hhibo6=c=8q_cqbj$c)6478*kpumiwp0up&y79tw
 
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["spans.onrender.com"]
 
 CHANNEL_LAYERS = {
     "default": {
@@ -40,14 +39,6 @@ INSTALLED_APPS = [
 
 
 ]
-
-DATABASES = {
-    'default': dj_database_url.config(
-        # Replace this value with your local database's connection string.
-        default='postgresql://postgres:postgres@localhost:5432/mysite',
-        conn_max_age=600
-    )
-}
 
 MIDDLEWARE = [
     "django.middleware.security.SecurityMiddleware",
