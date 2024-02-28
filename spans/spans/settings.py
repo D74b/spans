@@ -1,4 +1,5 @@
 import os
+import dj_database_url
 from pathlib import Path
 from dotenv import load_dotenv
 
@@ -39,6 +40,14 @@ INSTALLED_APPS = [
 
 
 ]
+
+DATABASES = {
+    'default': dj_database_url.config(
+        # Replace this value with your local database's connection string.
+        default='postgresql://postgres:postgres@localhost:5432/mysite',
+        conn_max_age=600
+    )
+}
 
 MIDDLEWARE = [
     "django.middleware.security.SecurityMiddleware",
